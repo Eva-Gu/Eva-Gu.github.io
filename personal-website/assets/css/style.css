@@ -54,3 +54,14 @@ footer {
     background-color:#ff4500;
 }
 
+.totop_style {
+    width: 85%;
+}
+.gototop {
+    position:fixed;
+    left:92.5%;
+    bottom:35px;
+    width: 10%;
+    cursor: pointer;
+}
+
