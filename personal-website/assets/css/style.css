@@ -1,3 +1,50 @@
-body {
-	background-image: url('assets/img/bg7.PNG');
+.box {
+   
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    background: rgba(255, 255, 255,0.8);
+    margin-top: 50px;
+    margin-left: 200px ;
+    margin-right: 200px;
+    margin-bottom: 250px;
+    height: 3500px;
 }
+
+.nav{
+    display: inline;
+    cursor: pointer;
+    font-size: 35px;
+    padding: 10px;    
+}
+.nav a{
+    font-family:"標楷體";
+    background-color: rgb(226,156,69);
+    border-radius: 10px;
+    padding: 0.5%;
+    border-style:solid;
+    border-width: 1px;
+}
+.nav a:hover{
+    background-color: rgb(211,177,125);
+}
+.nav_experience {
+    margin-right: 50px;
+
+}
+.nav_interest{
+    margin-right: 50px;
+
+}
+.nav_goal{
+    margin-right: 50px;
+
+}
+.nav_wish{
+    margin-right: 50px;
+
+}
+.nav_life{
+    
+}
+
