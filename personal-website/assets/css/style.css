@@ -99,21 +99,21 @@ a {
 }
 #dis {/*--絕對定位方便li圖片簡介的自動分佈定位---*/
     position: absolute;
-    left: -50px;
-    top: 20px;
+    left: -40px;
+    top: 30px;
     opacity: 0.5;
 }
 #dis li {
     display: inline-block;
     width: 200px;
-    height: 40px;
+    height: 25px;
     margin: 0 200px;
     float: left;
     text-align: center;
     color: #fff;
     border-radius: 10px;
     background: #000;
-    font-size:30px;
+    font-size:20px;
 }
 #photos img {
     float: left;
