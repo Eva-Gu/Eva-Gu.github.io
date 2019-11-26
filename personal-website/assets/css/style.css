@@ -99,7 +99,7 @@ a {
 
 
 #frame {/*----------圖片輪播相框容器----------*/
-            position: absolute; /*--絕對定位，方便子元素的定位*/
+            position:absolute; /*--絕對定位，方便子元素的定位*/
             width: 300px;
             height: 200px;
             overflow: hidden;/*--相框作用，只顯示一個圖片---*/
@@ -170,3 +170,8 @@ a {
         @keyframes ma3 {100%{margin-left:-600px;}   }
         @keyframes ma4 {100%{margin-left:-900px;}   }
         @keyframes ma5 {100%{margin-left:-1200px;}  }
+
+
+        section {
+            margin-left: 450px;
+        }
