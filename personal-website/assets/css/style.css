@@ -12,7 +12,7 @@ body{
     margin-left: 200px ;
     margin-right: 200px;
     margin-bottom: 20px;
-    height: 3500px;
+    height: 3000px;
 }
 
 .nav{
@@ -71,6 +71,7 @@ footer {
 
 .title{
     font-size: 40px;
+    margin-top: 50px;
 }
 
 hr {
@@ -192,8 +193,39 @@ article {
   display:none;
   background-color:#ffb2b2;
 }
-table{
+.s{
     width:900px;
     padding-right: 50px;
     padding-left: 50px;
 }
+
+.i1{
+    width:700px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.button1{
+  width:150px;
+  text-align: left;
+  color:#fff;
+  font-size:25px;
+}
+.button1:hover .hover{
+  display:block;
+}
+.c1 {
+    font-size: 25px; 
+    line-height:25px;
+    font-family:"標楷體";
+}
+
+.li{
+    width:30%;
+    padding-top:30px;
+}
+.li1{
+    width:70%;
+    padding-top:30px; 
+}
+
+
