@@ -125,7 +125,7 @@ a {
     width: calc(600px * 5);/*---修改圖片數量的話需要修改下面的動畫引數*/
 }
 .play{
-    animation: ma 20s ease-out infinite alternate;/**/
+    animation: ma 15s ease-out infinite alternate;/**/
 }
 @keyframes ma {/*---每圖片切換有兩個階段：位移切換和靜置。中間的效果可以任意定製----*/
       0%,20% {    margin-left: 0px;     }
@@ -171,4 +171,29 @@ section {
 
 article {
     padding-top: 450px;
+}
+
+.s1{
+    width:150px;
+    cursor: pointer;
+    padding-right:80px;
+}
+
+.button{
+  width:300px;
+  text-align: left;
+  color:#fff;
+  font-size:25px;
+}
+.button:hover .hover{
+  display:block;
+}
+.hover{
+  display:none;
+  background-color:#ffb2b2;
+}
+table{
+    width:900px;
+    padding-right: 50px;
+    padding-left: 50px;
 }
