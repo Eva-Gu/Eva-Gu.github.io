@@ -12,7 +12,7 @@ body{
     margin-left: 200px ;
     margin-right: 200px;
     margin-bottom: 20px;
-    height: 3000px;
+    height: 2900px;
 }
 
 .nav{
@@ -56,6 +56,7 @@ footer {
     font-size: 25px;
     padding:10px;
     background-color:#ff4500;
+    margin-top: 135px;
 }
 
 .totop_style {
@@ -70,8 +71,11 @@ footer {
 }
 
 .title{
-    font-size: 40px;
+    font-size: 50px;
     margin-top: 50px;
+    color:orange;
+    text-shadow: 5px 5px 1px gray;
+    font-weight: bold; 
 }
 
 hr {
@@ -219,17 +223,6 @@ article {
     font-family:"標楷體";
 }
 
-.li{
-    width:30%;
-    padding-top:30px;
-    cursor: pointer;
-}
-.li1{
-    width:70%;
-    padding-top:30px; 
-    cursor: pointer;
-}
-
 .ic1{
     height:50px;
     cursor: pointer;
@@ -266,4 +259,47 @@ article {
 } 
 .m{
     position: fixed;
+}
+
+.img_box1{
+    width:350px;
+    height:250px;
+    overflow: hidden;
+}
+.img1{
+    width:80%;
+    transition: all 0.6s;
+    padding-top:30px; 
+    cursor: pointer;
+}
+.img1:hover{
+    transform: scale(1.2);
+}
+.img_box2{
+    width:350px;
+    height:400px;
+    overflow: hidden;
+}
+.img2{
+    width:80%;
+    transition: all 0.6s;
+    padding-top:30px; 
+    cursor: pointer;
+}
+.img2:hover{
+    transform: scale(1.2);
+}
+.img_box3{
+    width:600px;
+    height:600px;
+    overflow: hidden;
+}
+.img3{
+    width:100%;
+    transition: all 0.6s;
+    padding-top:30px; 
+    cursor: pointer;
+}
+.img3:hover{
+    transform: scale(1.2);
 }
