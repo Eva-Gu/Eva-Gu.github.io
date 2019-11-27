@@ -228,4 +228,40 @@ article {
     padding-top:30px; 
 }
 
+.ic1{
+    height:50px;
+    cursor: pointer;
+}
+.ic2{
+    height:70px;
+    cursor: pointer;
 
+}
+.ic3{
+    height:50px;
+    cursor: pointer;
+
+}
+
+#master { 
+    position: absolute; width: 100px; top: 80px; left: -600px; z-index:2; visibility: visible;
+} 
+#menu   { 
+    position: absolute; width: 18px; top: 150px; left: 600px; z-index: 6; visibility: visible;
+} 
+#screen     { 
+    position: absolute; width: 600px; height: 30px; top: 76px; left: 0px; z-index: 5; visibility: visible; background: #fcf; 
+} 
+#screenlinks  { 
+    position: absolute; width: 588px; top: 81px; left: 5px; background: #ffc; border: 1px solid #77f; margin: 0px; padding: 2px 0 0; z-index:5; visibility:visible;
+} 
+#screenlinks dd {
+    margin: 0; padding: 0 0 2px 5px; 
+} 
+
+.m1{
+    height:150px; 
+} 
+.m{
+    position: fixed;
+}
