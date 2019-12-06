@@ -1,0 +1,52 @@
+body {
+      margin:0;
+      padding:0;      
+      background: #000 url('../image/background.png') center center fixed no-repeat;
+      -moz-background-size: cover;
+      background-size: cover;            
+}
+#totop {
+    margin-top: 50px;
+    font-size: 50px;
+    color:blue;
+    font-family: 標楷體;
+    text-shadow: 3px 3px 1px gray;
+
+}
+.totop_style {
+    width: 85%;
+}
+.gototop {
+    position:fixed;
+    left:92.5%;
+    bottom:35px;
+    width: 10%;
+    cursor: pointer;
+}
+
+
+.box {
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    background: rgba(255, 255, 255,0.5);
+}
+.box:hover {
+    transform: scale(1.1);
+}
+
+.introduce {
+    margin-top: 50px;
+    margin-left: 200px ;
+    margin-right: 200px;
+    margin-bottom: 20px;
+    height: 500px;
+}
+
+
+footer {
+    font-size: 25px;
+    padding:10px;
+    background:url('../image/footer.png');
+    margin-top: 100px;
+}
