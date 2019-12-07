@@ -243,17 +243,25 @@ article {
     padding-left: 50px;
     cursor: pointer;
 }
+.ic1:hover {
+     opacity: 0.5;
+}
 .ic2{
     height:50px;
     padding-left: 50px;
     cursor: pointer;
 
 }
+.ic2:hover {
+     opacity: 0.5;
+}
 .ic3{
     height:50px;
     padding-left: 50px;
     cursor: pointer;
-
+}
+.ic3:hover {
+     opacity: 0.5;
 }
 
 #master { 
