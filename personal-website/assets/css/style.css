@@ -227,20 +227,26 @@ article {
     padding-left: 150px;
 }
 .c3 {
-        padding-left: 80px;
+    padding-left: 80px;
+}
+.c4 {
+    margin-left: 10px;
 }
 
 .ic1{
     height:50px;
+    padding-left: 50px;
     cursor: pointer;
 }
 .ic2{
     height:50px;
+    padding-left: 50px;
     cursor: pointer;
 
 }
 .ic3{
     height:50px;
+    padding-left: 50px;
     cursor: pointer;
 
 }
