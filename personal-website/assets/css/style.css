@@ -223,12 +223,19 @@ article {
     font-family:"標楷體";
 }
 
+.c2 {
+    padding-left: 150px;
+}
+.c3 {
+        padding-left: 80px;
+}
+
 .ic1{
     height:50px;
     cursor: pointer;
 }
 .ic2{
-    height:70px;
+    height:50px;
     cursor: pointer;
 
 }
