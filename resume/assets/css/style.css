@@ -196,89 +196,164 @@ footer {
     margin-left: 200px ;
     margin-right: 200px;
     margin-bottom: 20px;
-    height: 500px;
+    height: 950px;
+    width: 600px;
+}
+#pro {
+    font-family: 微軟正黑體;
+    font-size: 35px;
+    color:#5555FF;
+    text-shadow: 4px 4px 1px gray;
+    font-weight: bold; 
+}
+hr {
+    height:1px;
+    border:none;
+    border-top:2px solid #555555;
+    width:80%;
+}
+div.word{
+    color:black;
+    font-family:微軟正黑體;
+    font-weight:bold;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+.container {
+    width: 80%;
+    background-color: #ddd;
+    border-radius: 30px;
+    margin-left: 10%;
+}
+.skills {
+    text-align: right;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: white;
+    border-radius: 30px;
+}
+.chinese {
+    animation-name: skill95;
+    animation-duration: 2s;
+    width: 95%;
+    background-color: #FFB7DD;
+}
+@keyframes skill95 {
+    0% {width: 0%}
+    100% {width: 95%}
+}
+.english {
+    animation-name: skill75;
+    animation-duration: 2s;
+    width: 75%;
+    background-color: #FFDDAA;
+}
+@keyframes skill75 {
+    0% {width: 0%}
+    100% {width: 75%}
+}
+.data {
+    animation-name: skill90;
+    animation-duration: 2s;
+    width: 90%;
+    background-color: #FFFFBB;
+}
+@keyframes skill90 {
+    0% {width: 0%}
+    100% {width: 90%}
+}
+.C1 {
+    animation-name: skill60;
+    animation-duration: 2s;
+    width: 60%; 
+    background-color: #CCFF99;
+}
+@keyframes skill60 {
+    0% {width: 0%}
+    100% {width: 60%}
+}
+.C2{
+    animation-name: skill80;
+    animation-duration: 2s;
+    width: 80%; 
+    background-color: #99BBFF;
+}
+@keyframes skill80 {
+    0% {width: 0%}
+    100% {width: 80%}
+}
+.Java {
+    animation-name: skill80;
+    animation-duration: 2s;
+    width: 80%; 
+    background-color: #D1BBFF;
+}
+@keyframes skill80 {
+    0% {width: 0%}
+    100% {width: 80%}
+}
+.film {
+    animation-name: skill90;
+    animation-duration: 2s;
+    width: 90%; 
+    background-color: #FFB7DD;
+}
+@keyframes skill90 {
+    0% {width: 0%}
+    100% {width: 90%}
+}
+.HTML {
+    animation-name: skill80;
+    animation-duration: 2s;
+    width: 80%; 
+    background-color: #FFDDAA;
+}
+@keyframes skill80 {
+    0% {width: 0%}
+    100% {width: 80%}
 }
 
-@-webkit-keyframes progress-bar-stripes {
-      from {
-          background-position: 1rem 0
-      }
-
-      to {
-          background-position: 0 0
-      }
-  }
-
-  @keyframes progress-bar-stripes {
-      from {
-          background-position: 1rem 0
-      }
-
-      to {
-          background-position: 0 0
-      }
-  }
-
-  @keyframes animate {
-      0% {
-          width: 0;
-      }
-
-      100% {
-          width: 100;
-      }
-  }
-
-  .progress {
-      display: -ms-flexbox;
-      display: flex;
-      height: 2.5rem;
-      overflow: hidden;
-      background-color: #e9ecef;
-      border-radius: 2rem;
-      margin: 20px;
-  }
-
-  .progress-bar {
-      display: -ms-flexbox;
-      display: flex;
-      -ms-flex-direction: column;
-      flex-direction: column;
-      -ms-flex-pack: center;
-      justify-content: center;
-      color: #fff;
-      font-size: 14px;
-      text-align: left;
-      font-family: sans-serif;
-      letter-spacing: 3px;
-      padding-left: 20px;
-      white-space: nowrap;
-      background-color: #0080ff;
-      transition: width .6s ease;
-  }
-
-  @media screen and (prefers-reduced-motion:reduce) {
-      .progress-bar {
-          transition: none
-      }
-  }
-
-  .progress-bar-striped {
-      background-image: linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
-      background-size: 1rem 1rem
-  }
-
-  .progress-bar-animated {
-      -webkit-animation: progress-bar-stripes 1s linear infinite;
-      animation: progress-bar-stripes 1s linear infinite, animate 1 2s;
-  }
-.skill-font{
-      width: 100px;
+.CSS {
+    animation-name: skill70;
+    animation-duration: 2s;
+    width: 70%; 
+    background-color: #FFFFBB;
 }
-.col-10{
-    margin-left: -250px;
-    padding-bottom: 100px;
+@keyframes skill70 {
+    0% {width: 0%}
+    100% {width: 70%}
 }
-h3{
 
+.JavaScript {
+    animation-name: skill50;
+    animation-duration: 2s;
+    width: 50%; 
+    background-color: #CCFF99;
 }
+@keyframes skill50 {
+    0% {width: 0%}
+    100% {width: 50%}
+}
+
+.erhu {
+    animation-name: skill90;
+    animation-duration: 2s;
+    width: 90%; 
+    background-color: #99BBFF;
+}
+@keyframes skill90 {
+    0% {width: 0%}
+    100% {width: 90%}
+}
+
+.uklili {
+    animation-name: skill70;
+    animation-duration: 2s;
+    width: 70%; 
+    background-color: #D1BBFF;
+}
+@keyframes skill70 {
+    0% {width: 0%}
+    100% {width: 70%}
+}
+
