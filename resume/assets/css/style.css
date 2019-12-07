@@ -191,18 +191,10 @@ footer {
 }
 
 
-.profession {
-    margin-top: 50px;
-    margin-left: 200px ;
-    margin-right: 200px;
-    margin-bottom: 20px;
-    height: 950px;
-    width: 600px;
-}
-#pro {
+.title {
     font-family: 微軟正黑體;
     font-size: 35px;
-    color:#5555FF;
+    color: #5599FF;
     text-shadow: 4px 4px 1px gray;
     font-weight: bold; 
 }
@@ -211,6 +203,16 @@ hr {
     border:none;
     border-top:2px solid #555555;
     width:80%;
+}
+
+
+.profession {
+    margin-top: 50px;
+    margin-left: 200px ;
+    margin-right: 200px;
+    margin-bottom: 20px;
+    height: 950px;
+    width: 600px;
 }
 div.word{
     color:black;
@@ -357,3 +359,28 @@ div.word{
     100% {width: 70%}
 }
 
+
+.work {
+    margin-top: 50px;
+    margin-left:50px ;
+    margin-right: 200px;
+    margin-bottom: 20px;
+    height: 950px;
+    width: 510px;
+}
+.w1 {
+    width:480px;
+    margin-top: 30px;
+}
+.w1:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+.w2 {
+    width:480px;
+    margin-top: 30px;
+}
+.w2:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
