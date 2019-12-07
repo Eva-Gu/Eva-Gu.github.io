@@ -1,9 +1,10 @@
 body {
-      margin:0;
-      padding:0;      
-      background: #000 url('../image/background.png') center center fixed no-repeat;
-      -moz-background-size: cover;
-      background-size: cover;            
+    margin:0;
+    padding:0;      
+    background: #000 url('../image/background.png') center center fixed no-repeat;
+    -moz-background-size: cover;
+    background-size: cover;   
+    font-family: 微軟正黑體;         
 }
 #totop {
     margin-top: 50px;
@@ -31,38 +32,31 @@ body {
     border-radius: 50px;
     background: rgba(255, 255, 255,0.5);
 }
-.box:hover {
+.box:hover{
     transform: scale(1.1);
 }
 
 .introduce {
-    margin-top: 50px;
+    margin-top: -20px;
     margin-left: 200px ;
     margin-right: 200px;
     margin-bottom: 20px;
     height: 500px;
 }
-
-
-footer {
-    font-size: 25px;
-    padding:10px;
-    background:url('../image/footer.png');
-    margin-top: 100px;
-}
-
 .ic{
     margin-top:15px;
     margin-right:30px;
     height:50px;
     cursor: pointer;
 }
-
+.ic:hover {
+    opacity: 0.5;
+}
 #master { 
-    position: absolute; width: 100px; top: 340px; left: -400px; z-index:2; visibility: visible;
+    position: absolute; width: 100px; top: 260px; left: -400px; z-index:2; visibility: visible;
 } 
 #menu   { 
-    position: absolute; width: 18px; top: 55px; left: 390px; z-index: 6; visibility: visible;
+    position: absolute; width: 18px; top: 65px; left: 390px; z-index: 6; visibility: visible;
 } 
 #screen     { 
     position: absolute; width: 400px; height: 30px; top: 76px; left: 0px; z-index: 5; visibility: visible; background:#ADD8E6; 
@@ -73,7 +67,6 @@ footer {
 #screenlinks dd {
     margin: 0; padding: 0 0 2px 5px; 
 } 
-
 .m1{
     height:220px; 
 } 
@@ -84,4 +77,208 @@ footer {
     font-size: 20px; 
     line-height:30px;
     font-family:"微軟正黑體";
+}
+.change {
+    width: 100px;
+    height: 195px;
+    position: relative;
+    display: inline-block;
+    margin-left: 50px;
+}
+.change .img-change {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.change:hover .img-change {
+    display: inline;
+    cursor: pointer;
+}
+.I1{
+    width:300px;
+    margin-top: 35px;
+    margin-left: 50px;
+}
+
+.mywebsite{
+    cursor: pointer;
+    font-size: 35px;
+    padding: 10px;    
+    margin-top: -40px;
+    margin-bottom: 10px; 
+}
+.mywebsite a{
+    font-family:"標楷體";
+    background-color: #6495ed;
+    border-radius: 10px;
+    padding: 0.5%;
+    border-style:solid;
+    border-width: 2px;
+    border-color: #4169e1;
+    margin-left: 120px;
+}
+.mywebsite a:hover{
+    opacity: 0.5;
+}
+a {
+    text-decoration:none;
+    color: black;
+}
+.name {
+    margin-top: 10px;
+    margin-left: 50px;
+    width:40%;
+}
+.quote {
+    margin-top: -80px;
+    margin-bottom:-50px; 
+    margin-left: -150px;
+    width: 710px;
+}
+.brief {
+    font-size: 25px;
+    margin-left: -100px;
+    line-height: 70px;
+}
+
+
+.nav{
+    display: inline;
+    cursor: pointer;
+    font-size:25px;
+    padding: 10px; 
+}
+.nav a{
+    font-family:"標楷體";
+    background-color: #6495ed;
+    border-radius: 10px;
+    padding: 0.5%;
+    border-style:solid;
+    border-color: #4169e1;
+    border-width: 1px;
+}
+.nav a:hover{
+    opacity: 0.5;
+}
+.nav_1 {
+    font-size: 30px;
+    margin-right:50px; 
+}
+.nav_2 {
+    font-size: 30px;
+    margin-right:50px; 
+}
+.nav_3 {
+    font-size: 30px;
+    margin-right:50px; 
+}
+.nav_4 {
+    font-size: 30px;
+    margin-right:50px; 
+}
+.nav_5 {
+    font-size: 30px;
+}
+
+
+footer {
+    font-size: 25px;
+    padding:10px;
+    background:url('../image/footer.png');
+    margin-top: 100px;
+}
+
+
+.profession {
+    margin-top: 50px;
+    margin-left: 200px ;
+    margin-right: 200px;
+    margin-bottom: 20px;
+    height: 500px;
+}
+
+@-webkit-keyframes progress-bar-stripes {
+      from {
+          background-position: 1rem 0
+      }
+
+      to {
+          background-position: 0 0
+      }
+  }
+
+  @keyframes progress-bar-stripes {
+      from {
+          background-position: 1rem 0
+      }
+
+      to {
+          background-position: 0 0
+      }
+  }
+
+  @keyframes animate {
+      0% {
+          width: 0;
+      }
+
+      100% {
+          width: 100;
+      }
+  }
+
+  .progress {
+      display: -ms-flexbox;
+      display: flex;
+      height: 2.5rem;
+      overflow: hidden;
+      background-color: #e9ecef;
+      border-radius: 2rem;
+      margin: 20px;
+  }
+
+  .progress-bar {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -ms-flex-pack: center;
+      justify-content: center;
+      color: #fff;
+      font-size: 14px;
+      text-align: left;
+      font-family: sans-serif;
+      letter-spacing: 3px;
+      padding-left: 20px;
+      white-space: nowrap;
+      background-color: #0080ff;
+      transition: width .6s ease;
+  }
+
+  @media screen and (prefers-reduced-motion:reduce) {
+      .progress-bar {
+          transition: none
+      }
+  }
+
+  .progress-bar-striped {
+      background-image: linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+      background-size: 1rem 1rem
+  }
+
+  .progress-bar-animated {
+      -webkit-animation: progress-bar-stripes 1s linear infinite;
+      animation: progress-bar-stripes 1s linear infinite, animate 1 2s;
+  }
+.skill-font{
+      width: 100px;
+}
+.col-10{
+    margin-left: -250px;
+    padding-bottom: 100px;
+}
+h3{
+
 }
