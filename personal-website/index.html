@@ -13,65 +13,6 @@
             background-size: cover; 
         }
     </style>
-    <script type="text/javascript">
-        <!--
-         
-        var master = new Object("element") 
-        master.curLeft = -100;
-        master.curTop = 10; 
-        master.gapLeft = 0;
-        master.gapTop = 0; 
-        master.timer = null; 
-         
-        function moveAlong(layerName, paceLeft, paceTop, fromLeft, fromTop){ 
-            clearTimeout(eval(layerName).timer) 
-         
-            if(eval(layerName).curLeft != fromLeft){ 
-                if((Math.max(eval(layerName).curLeft, fromLeft) - Math.min(eval(layerName).curLeft, fromLeft)) < paceLeft){
-                    eval(layerName).curLeft = fromLeft
-                } else if(eval(layerName).curLeft < fromLeft) {
-                    eval(layerName).curLeft = eval(layerName).curLeft + paceLeft
-                } else if(eval(layerName).curLeft > fromLeft) {
-                    eval(layerName).curLeft = eval(layerName).curLeft - paceLeft
-                }
-                document.getElementById([layerName]).style.left = eval(layerName).curLeft + 'px';
-            } 
-         
-            if(eval(layerName).curTop != fromTop){ 
-                if((Math.max(eval(layerName).curTop, fromTop) - Math.min(eval(layerName).curTop, fromTop)) < paceTop){
-                    eval(layerName).curTop = fromTop
-                } else if(eval(layerName).curTop < fromTop) {
-                    eval(layerName).curTop = eval(layerName).curTop + paceTop
-                } else if(eval(layerName).curTop > fromTop) {
-                    eval(layerName).curTop = eval(layerName).curTop - paceTop
-                } 
-                document.getElementById([layerName]).style.top = eval(layerName).curTop + 'px';
-            } 
-         
-            eval(layerName).timer=setTimeout('moveAlong("'+layerName+'" , '+paceLeft+' , '+paceTop+' , '+fromLeft+' , '+fromTop+')',30) 
-        } 
-         
-        function setPace(layerName, fromLeft, fromTop, motionSpeed){ 
-            eval(layerName).gapLeft = (Math.max(eval(layerName).curLeft, fromLeft) - Math.min(eval(layerName).curLeft,fromLeft))/motionSpeed 
-            eval(layerName).gapTop = (Math.max(eval(layerName).curTop, fromTop) - Math.min(eval(layerName).curTop,fromTop))/motionSpeed
-         
-            moveAlong(layerName, eval(layerName).gapLeft, eval(layerName).gapTop, fromLeft, fromTop) 
-        } 
-         
-        var expandState = 0 
-         
-        function expand(){ 
-            if(expandState == 0){
-                setPace("master", 0, 10, 10);
-                expandState = 1;
-            } else {
-                setPace("master", -600, 10, 10);
-                expandState = 0;
-            } 
-        }
-         
-        //-->
-    </script>
 </head>
 <body>
     <div class="gototop">
