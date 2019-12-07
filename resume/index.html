@@ -4,7 +4,6 @@
 	<meta charset="utf-8">
 	<title>resume</title>
 	<link rel=stylesheet type="text/css" href="assets/css/style.css">
-
 	<script type="text/javascript">
         <!--
          
@@ -66,7 +65,15 @@
     </script>
 </head>
 <body>
-	<div id="totop"><center><b>珮 樺 の 履 歷</b></center></div>
+    <nav class="nav" id="totop">
+        <center>
+            <a href="#intro" class="nav_1">基本資訊</a>
+            <a href="#pro" class="nav_2">專業職能</a>
+            <a href="#goal" class="nav_3">經歷</a>
+            <a href="#wish" class="nav_4">其他</a>
+            <a href="#life" class="nav_5">其他</a>
+        </center>
+    </nav>
 	<div class="gototop">
         <a href="#totop"><img class="totop_style" src="assets/image/top.png"></a>
     </div>
@@ -93,10 +100,43 @@
             </div>
         </div>
     </aside>
-	<div class="box introduce">
+	<div class="box introduce" id="intro">
+        <table width="100%" style="table-layout:fixed">
+            <tr>
+                <td rowspan="3" >
+                    <div class="change">                   
+                        <img src="assets/image/I1.png" class="I1" alt="my picture1">
+                        <img src="assets/image/I2.png" class="img-change I1" alt="my picture2">
+                    </div>
+                </td>
+                <td>
+                    <img src="assets/image/name.png" class="name">
+                </td>
+            </tr> 
+            <tr>
+                <td>
+                    <img src="assets/image/quote.png" class="quote">
+                    <p class="brief">我來自桃園市楊梅區的小鄉村-富岡，目前就讀中原大學資管系二年級，我的個性積極、樂觀、隨和，喜歡嘗試些新鮮的事物、注重活在當下</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="mywebsite">
+                        <a href="https://eva-gu.github.io/personal-website/" target="_blank">個人網頁</a>
+                    </div>
+                </td>  
+            </tr>
+        </table>
+	</div>
+    <div class="box profession" id="pro">
+        <div class="col-10">
+            <div class="progress" style="margin-left: 20%;height:35px;margin-top:20px;">
+            <span class="skill-font"><h3>HTML5</h3></span>
+            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85% ; ">85%</div>
+        </div>
+    </div>
 
 	</div>
-	
 	<footer>
         <center><b>Copyright © 2019 古珮樺 版權所有</b></center>
     </footer>
