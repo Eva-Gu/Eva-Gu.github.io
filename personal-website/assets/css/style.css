@@ -232,6 +232,11 @@ article {
 .c4 {
     margin-left: 10px;
 }
+.c5 {
+    font-size: 25px; 
+    line-height:75px;
+    font-family:"標楷體";
+}
 
 .ic1{
     height:50px;
