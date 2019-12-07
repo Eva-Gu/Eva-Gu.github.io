@@ -4,6 +4,66 @@
 	<meta charset="utf-8">
 	<title>resume</title>
 	<link rel=stylesheet type="text/css" href="assets/css/style.css">
+
+	<script type="text/javascript">
+        <!--
+         
+        var master = new Object("element") 
+        master.curLeft = -100;
+        master.curTop = 10; 
+        master.gapLeft = 0;
+        master.gapTop = 0; 
+        master.timer = null; 
+         
+        function moveAlong(layerName, paceLeft, paceTop, fromLeft, fromTop){ 
+            clearTimeout(eval(layerName).timer) 
+         
+            if(eval(layerName).curLeft != fromLeft){ 
+                if((Math.max(eval(layerName).curLeft, fromLeft) - Math.min(eval(layerName).curLeft, fromLeft)) < paceLeft){
+                    eval(layerName).curLeft = fromLeft
+                } else if(eval(layerName).curLeft < fromLeft) {
+                    eval(layerName).curLeft = eval(layerName).curLeft + paceLeft
+                } else if(eval(layerName).curLeft > fromLeft) {
+                    eval(layerName).curLeft = eval(layerName).curLeft - paceLeft
+                }
+                document.getElementById([layerName]).style.left = eval(layerName).curLeft + 'px';
+            } 
+         
+            if(eval(layerName).curTop != fromTop){ 
+                if((Math.max(eval(layerName).curTop, fromTop) - Math.min(eval(layerName).curTop, fromTop)) < paceTop){
+                    eval(layerName).curTop = fromTop
+                } else if(eval(layerName).curTop < fromTop) {
+                    eval(layerName).curTop = eval(layerName).curTop + paceTop
+                } else if(eval(layerName).curTop > fromTop) {
+                    eval(layerName).curTop = eval(layerName).curTop - paceTop
+                } 
+                document.getElementById([layerName]).style.top = eval(layerName).curTop + 'px';
+            } 
+         
+            eval(layerName).timer=setTimeout('moveAlong("'+layerName+'" , '+paceLeft+' , '+paceTop+' , '+fromLeft+' , '+fromTop+')',30) 
+        } 
+         
+        function setPace(layerName, fromLeft, fromTop, motionSpeed){ 
+            eval(layerName).gapLeft = (Math.max(eval(layerName).curLeft, fromLeft) - Math.min(eval(layerName).curLeft,fromLeft))/motionSpeed 
+            eval(layerName).gapTop = (Math.max(eval(layerName).curTop, fromTop) - Math.min(eval(layerName).curTop,fromTop))/motionSpeed
+         
+            moveAlong(layerName, eval(layerName).gapLeft, eval(layerName).gapTop, fromLeft, fromTop) 
+        } 
+         
+        var expandState = 0 
+         
+        function expand(){ 
+            if(expandState == 0){
+                setPace("master", 0, 10, 10);
+                expandState = 1;
+            } else {
+                setPace("master", -400, 10, 10);
+                expandState = 0;
+            } 
+        }
+         
+        //-->
+    </script>
 </head>
 <body>
 	<div id="totop"><center><b>珮 樺 の 履 歷</b></center></div>
@@ -14,21 +74,19 @@
         <div class="m">    
             <div id="master">
                 <div id="menu">
-                    <img class="m1" src="assets/image/aside.png" onmouseover="expand();" alt="Menu" />
+                    <img class="m1" src="assets/image/me0.png" onmouseover="expand()" alt="Menu" />
                 </div>
                 <div id="screen"></div>
                 <dl id="screenlinks">
-                    <center class="title">聯 絡 資 訊</center>
-                    <hr style="width:80%" />
                     <div class="d1">
                         <dd>電話：0908201226</dd>
                         <dd>地址：桃園市楊梅區富岡里信義街60號</dd>
-                        <dd>E-mail:z20090918z@gmail.com</dd>
                         <dd>Line ID:cj86881226</dd>
                         <dd>
-                            <a href="https://www.facebook.com/people/%E5%8F%A4%E7%8F%AE%E6%A8%BA/100003395859500" target="_blank"><img class="ic1" src="assets/image/FB.png" ></a>    
-                            <a href="https://www.instagram.com/z20090918z/" target="_blank"><img class="ic2" src="assets/image/IG.png" ></a>
-                            <a href="https://github.com/Eva-Gu/Eva-Gu.github.io.git" target="_blank"><img class="ic3" src="assets/image/GITHUB.png"></a>
+                            <a href="https://www.facebook.com/people/%E5%8F%A4%E7%8F%AE%E6%A8%BA/100003395859500" target="_blank"><img class="ic" src="assets/image/FB.png" ></a>    
+                            <a href="https://www.instagram.com/z20090918z/" target="_blank"><img class="ic" src="assets/image/IG.png" ></a>
+                            <a href="https://github.com/Eva-Gu/Eva-Gu.github.io.git" target="_blank"><img class="ic" src="assets/image/GITHUB.png"></a>
+                            <a href="mailto:z20090918z@gmail.com"><img class="ic" src="assets/image/Gmail.png"></a>
                         </dd>
                     </div>
                 </dl>
