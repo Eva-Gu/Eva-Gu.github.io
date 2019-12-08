@@ -38,7 +38,7 @@ body {
     margin-top: -20px;
     margin-left: 200px ;
     margin-right: 200px;
-    margin-bottom: -20px;
+    margin-bottom: -5px;
     height: 500px;
 }
 .ic{
@@ -406,7 +406,7 @@ div.word{
     margin-left: 200px ;
     margin-right: 200px;
     margin-bottom: -20px;
-    height: 500px;
+    height: 350px;
 }
 .s1{
     width:150px;
@@ -450,6 +450,14 @@ div.word{
 }
 .s{
     width:900px;
+    padding-top: 20px;
     padding-right: 50px;
     padding-left: 50px;
+}
+.activity {
+    margin-top: 70px;
+    margin-left: 200px ;
+    margin-right: 200px;
+    margin-bottom: -20px;
+    height: 500px;
 }
