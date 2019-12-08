@@ -500,7 +500,7 @@ div.word{
     margin-left: 200px ;
     margin-right: 200px;
     margin-bottom: -20px;
-    height: 500px;
+    height: 550px;
 }
 .changeaa {
     width: 100px;
@@ -592,6 +592,31 @@ div.word{
 .c1 {
     margin-left: -20px;
     width:270px;
+}
+.ap1{
+    padding-left: 80px;
+    color:black;
+    font-family:微軟正黑體;
+    font-weight:bold;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.ap0{
+    padding-left: 50px;
+    color:black;
+    font-family:微軟正黑體;
+    font-weight:bold;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.ap2{
+    padding-left: 50px;
+    margin-left: :10px;
+    margin-right: -30px;
+    color:black;
+    font-family:微軟正黑體;
+    font-size: 18px;
+    padding-bottom: 30px;
 }
 
 
