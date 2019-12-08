@@ -502,7 +502,97 @@ div.word{
     margin-bottom: -20px;
     height: 500px;
 }
-
+.changeaa {
+    width: 100px;
+    height: 195px;
+    position: relative;
+    display: inline-block;
+    margin-left: -20%;
+}
+.changeaa .img-changeaa {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.changeaa:hover .img-changeaa {
+    display: inline;
+    cursor: pointer;
+}
+.changea {
+    width: 100px;
+    height: 195px;
+    position: relative;
+    display: inline-block;
+    margin-left: -20%;
+}
+.changea .img-changea {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.changea:hover .img-changea {
+    display: inline;
+    cursor: pointer;
+}
+.changeb {
+    width: 100px;
+    height: 195px;
+    position: relative;
+    display: inline-block;
+    margin-left: -20%;
+}
+.changeb .img-changeb {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.changeb:hover .img-changeb {
+    display: inline;
+    cursor: pointer;
+}
+.changec {
+    width: 100px;
+    height: 195px;
+    position: relative;
+    display: inline-block;
+    margin-left: -20%;
+}
+.changec .img-changec {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.changec:hover .img-changec {
+    display: inline;
+    cursor: pointer;
+}
+.ac0{
+    margin-left: -38px;
+}
+.aa1 {
+    margin-left: -20px;
+    width:270px;
+}
+.a1 {
+    margin-left: -20px;
+    width:270px;
+}
+.b1 {
+    margin-left: -20px;
+    width:270px;
+}
+.c1 {
+    margin-left: -20px;
+    width:270px;
+}
 
 
 .license {
