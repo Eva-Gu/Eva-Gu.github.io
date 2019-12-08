@@ -1,9 +1,7 @@
 body {
     margin:0;
-    padding:0;      
-    background: #000 url('../image/background.png') center center fixed no-repeat;
-    -moz-background-size: cover;
-    background-size: cover;   
+    padding:0;
+    background-color: #99BBFF;
     font-family: 微軟正黑體;         
 }
 #totop {
