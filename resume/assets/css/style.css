@@ -620,13 +620,22 @@ div.word{
 }
 .ap3{
     padding-left: 50px;
-    margin-top: 40px;
+    margin-top:5px;
     margin-left: :10px;
     margin-right: -30px;
     color:black;
     font-family:微軟正黑體;
     font-size: 18px;
     padding-bottom: 30px;
+}
+.ap4{
+    padding-left: 80px;
+    color:black;
+    font-family:微軟正黑體;
+    font-weight:bold;
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin-top: 45px;
 }
 
 
