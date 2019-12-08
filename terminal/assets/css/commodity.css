@@ -1,0 +1,11 @@
+img.tick1{
+	width:870px;
+	float: left;
+	opacity: 0.5;
+}
+.tick1:hover{
+	opacity: 1;
+}
+.c1 {
+	background-color: #FFBB66;
+}
