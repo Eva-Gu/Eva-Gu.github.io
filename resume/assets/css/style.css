@@ -168,21 +168,25 @@ a {
 }
 .nav_1 {
     font-size: 30px;
-    margin-right:50px; 
+    margin-right:30px; 
 }
 .nav_2 {
     font-size: 30px;
-    margin-right:50px; 
+    margin-right:30px; 
 }
 .nav_3 {
     font-size: 30px;
-    margin-right:50px; 
+    margin-right:30px; 
 }
 .nav_4 {
     font-size: 30px;
-    margin-right:50px; 
+    margin-right:30px; 
 }
 .nav_5 {
+    font-size: 30px;
+    margin-right:30px; 
+}
+.nav_6 {
     font-size: 30px;
 }
 
@@ -454,10 +458,30 @@ div.word{
     padding-right: 50px;
     padding-left: 50px;
 }
+
+
 .activity {
     margin-top: 70px;
     margin-left: 200px ;
     margin-right: 200px;
     margin-bottom: -20px;
     height: 500px;
+}
+
+
+.license {
+    margin-top: 70px;
+    margin-left: 200px ;
+    margin-right: 200px;
+    margin-bottom: -20px;
+    height: 710px;
+}
+.li {
+    width:300px;
+    opacity: 0.5;
+}
+.li:hover{
+    transform: scale(1.1);
+     opacity: 1;
+    cursor: pointer;
 }
