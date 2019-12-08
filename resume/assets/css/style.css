@@ -38,7 +38,7 @@ body {
     margin-top: -20px;
     margin-left: 200px ;
     margin-right: 200px;
-    margin-bottom: 20px;
+    margin-bottom: -20px;
     height: 500px;
 }
 .ic{
@@ -399,4 +399,57 @@ div.word{
     font-family:微軟正黑體;
     font-weight:bold;
     font-size: 20px;
+}
+
+.experience {
+    margin-top: 20px;
+    margin-left: 200px ;
+    margin-right: 200px;
+    margin-bottom: -20px;
+    height: 500px;
+}
+.s1{
+    width:150px;
+    cursor: pointer;
+    padding-right:80px;
+}
+
+.button{
+    width:250px;
+    text-align: left;
+    color:#fff;
+    font-size:20px; 
+}
+.button:hover .hover{
+    display:block;    
+    margin-left: -80px; 
+}
+.button1{
+    width:270px;
+    text-align: left;
+    color:#fff;
+    font-size:20px;  
+}
+.button1:hover .hover{
+    display:block;
+    margin-left: -80px; 
+}
+.button2{
+    width:300px;
+    text-align: left;
+    color:#fff;
+    font-size:20px;  
+}
+.button2:hover .hover{
+    display:block;
+    margin-left: -80px; 
+}
+.hover{
+    display:none;
+    background-color:#99BBFF;
+}
+.s{
+    width:900px;
+    padding-right: 50px;
+    padding-left: 50px;
 }
