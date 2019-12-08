@@ -161,6 +161,9 @@ a {
     border-width: 1px;
 }
 .nav a:hover{
+    box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24), 0 9px 25px 0 rgba(0,0,0,0.19);
+}
+.nav a:active{
     opacity: 0.5;
 }
 .nav_1 {
@@ -371,7 +374,7 @@ div.word{
 }
 .w1 {
     width:480px;
-    margin-top: 30px;
+    margin-bottom:100px;
 }
 .w1:hover{
     cursor: pointer;
@@ -379,9 +382,21 @@ div.word{
 }
 .w2 {
     width:480px;
-    margin-top: 30px;
 }
 .w2:hover{
     cursor: pointer;
     opacity: 0.5;
+}
+.wf1{
+    color:black;
+    font-family:微軟正黑體;
+    font-weight:bold;
+    font-size: 20px;
+    margin-top:80px;
+}
+.wf2{
+    color:black;
+    font-family:微軟正黑體;
+    font-weight:bold;
+    font-size: 20px;
 }
