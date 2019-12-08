@@ -376,34 +376,69 @@ div.word{
     height: 950px;
     width: 510px;
 }
+.w0 {
+    width:200px;
+    margin-top:-10px;
+}
 .w1 {
-    width:480px;
-    margin-bottom:100px;
+    width:400px;
+    margin-top:-10px;
 }
 .w1:hover{
     cursor: pointer;
     opacity: 0.5;
 }
 .w2 {
-    width:480px;
+    width:400px;
+    margin-top:-10px;
 }
 .w2:hover{
     cursor: pointer;
     opacity: 0.5;
+}
+.wf0{
+    color:black;
+    font-family:微軟正黑體;
+    font-weight:bold;
+    font-size: 20px;
+    margin-top:0px;
+    margin-bottom: 15px;
 }
 .wf1{
     color:black;
     font-family:微軟正黑體;
     font-weight:bold;
     font-size: 20px;
-    margin-top:80px;
+    margin-top:0px;
+    margin-bottom: 15px;
 }
 .wf2{
     color:black;
     font-family:微軟正黑體;
     font-weight:bold;
     font-size: 20px;
+    margin-top:-3px;
+    margin-bottom: 15px;
 }
+.change1 {
+    width: 100px;
+    height: 195px;
+    position: relative;
+    display: inline-block;
+    margin-left: -20%;
+}
+.change1 .img-change1 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.change1:hover .img-change1 {
+    display: inline;
+    cursor: pointer;
+}
+
 
 .experience {
     margin-top: 20px;
@@ -467,6 +502,7 @@ div.word{
     margin-bottom: -20px;
     height: 500px;
 }
+
 
 
 .license {
