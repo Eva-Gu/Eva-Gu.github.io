@@ -500,7 +500,7 @@ div.word{
     margin-left: 200px ;
     margin-right: 200px;
     margin-bottom: -20px;
-    height: 550px;
+    height: 570px;
 }
 .changeaa {
     width: 100px;
@@ -611,6 +611,16 @@ div.word{
 }
 .ap2{
     padding-left: 50px;
+    margin-left: :10px;
+    margin-right: -30px;
+    color:black;
+    font-family:微軟正黑體;
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+.ap3{
+    padding-left: 50px;
+    margin-top: 40px;
     margin-left: :10px;
     margin-right: -30px;
     color:black;
