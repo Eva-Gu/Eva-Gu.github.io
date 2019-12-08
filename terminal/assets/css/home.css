@@ -25,6 +25,16 @@ img.home{
 	margin-left: -200px;
 	margin-right:870px;
 	margin-top:-250px;
+	animation-name: oxx;
+	animation-duration:4s;
+}
+@keyframes oxx {
+	from {
+		margin-right: -3500px;
+	}
+	to {
+		margin-left: 0px;
+	}
 }
 img.home:hover {
 	background-color:	#FFBB66;
