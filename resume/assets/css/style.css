@@ -118,7 +118,7 @@ body {
     margin-left: 120px;
 }
 .mywebsite a:hover{
-    opacity: 0.5;
+    box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24),0 9px 25px 0 rgba(0,0,0,0.19);
 }
 a {
     text-decoration:none;
