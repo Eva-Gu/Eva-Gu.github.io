@@ -32,3 +32,104 @@ img.tick2{
 	margin:0px;
 	padding:0px;
 }
+
+
+.gift{
+	width:80px;
+	margin-left: 780px;
+	margin-top: 50px;
+	margin-bottom: 15px;
+}
+.gift:hover{
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+.ti1 {
+	width:800px;
+}
+.ti1:hover{
+	transform: scale(1.05);
+	cursor: pointer;
+}
+.camount {
+	text-align: center;
+	color:#FF3333;
+	font-weight:bold;
+	font:35px 微軟正黑體;
+	margin-bottom: 0px;
+}
+.c1 {
+	width:70px;
+	margin-left:100px;
+	margin-top: -40px;
+	margin-bottom: -30px;
+	opacity: 1;
+}
+.c1:active{
+	transform: scale(0.8);
+	opacity: 0.8;
+}
+.cname{
+	text-align: center;
+	color:#FF3333;
+	font-weight:bold;
+	font:50px 微軟正黑體;
+	margin-bottom: 0px;
+}
+.buy  {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 25px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #FFC8B4;
+    background-color: #FF3333;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px #999;     
+    opacity: 0.8; 
+}
+.buy:active {
+    opacity: 0.5;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.csite{
+	margin-left: -200px;
+}
+.csite1{
+	margin-left: -100px;
+}
+.csite2{
+	margin-left: 330px;
+	margin-top: -15px;
+}
+.csite3{
+	color:#FF3333;
+	font-weight:bold;
+	font:35px 微軟正黑體;
+	text-align: left;
+	margin-left: -100px;
+	margin-bottom: -20px;
+}
+.csite4{
+	color:#FF3333;
+	font-weight:bold;
+	font:30px 微軟正黑體;
+	text-align: left;
+	margin-left: -100px;
+	margin-right: 50px;
+	margin-top: 100px;
+}
+.csite5{
+	color:#FF3333;
+	font-weight:bold;
+	font:30px 微軟正黑體;
+	text-align: left;
+	margin-left: -100px;
+	margin-right: 50px;
+	margin-top: 50px;
+}
