@@ -6,6 +6,8 @@
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 		<style>
 			@import url("assets/css/home.css");
+			@import url("assets/css/sign.css");
+			@import url("assets/css/add.css")
 		</style>
 	</head>
 	<body>
@@ -13,10 +15,10 @@
 			<img src="assets/img/logo.png" alt="logo" class="logo">
 			<ul>
 				<li><a href="#car"><img class="car" src="assets/img/cart.png"></a></li>
-				<li><a href="#sign in/up">sign in/sign up</a></li>
+				<li><button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">sign in/sign up</button></li>
 				<li><a href="#Q&A">Q&A</a></li>
-				<li><a href="#about us">about us</a></li>
-				<li><a href="commodity.html">commodity</a></li>
+				<li><a href="page/about.html">about us</a></li>
+				<li><a href="#commodity">commodity</a></li>
 				<li><a href="index.html"><img class="home" src="assets/img/home.png"></a></li>
 			</ul>
 		</nav>
@@ -57,6 +59,78 @@
 			dots[slideIndex-1].className += " w3-white";
 			}
 		</script>
+		<div id="id01" class="modal">
+			
+			<form class="modal-content animate" action="/action_page.php" method="post">
+				<div class="imgcontainer">
+					<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+				</div>
+				<div class="container">
+					<label for="uname" class="te"><b>帳號：</b></label>
+					<input type="text" placeholder="Enter Username" name="uname" required>
+					<label for="psw"  class="te"><b>密碼：</b></label>
+					<input type="password" placeholder="Enter Password" name="psw" required>					
+					<button type="submit" class="add">登入</button>
+					<button type="submit" class="add">管理員登入</button>
+					<label>
+						<input type="checkbox" checked="checked" name="remember"> Remember me
+					</label>
+
+				</div>
+				<div class="container">
+					<button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">取消</button>
+					<button onclick="document.getElementById('id02').style.display='block'" style="width:auto;"class="cancelbtn" >註冊</button>
+					<span class="psw">Forgot <a href="#">password?</a></span>
+				</div>
+			</form>
+		</div>
+		<script>
+		// Get the modal
+		var modal = document.getElementById('id01');
+		// When the user clicks anywhere outside of the modal, close it
+		window.onclick = function(event) {
+		if (event.target == modal) {
+		modal.style.display = "none";
+		}
+		}
+		</script>
+		
+		<div id="id02" class="modal1">
+			<span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+			<form class="modal-content1" action="/action_page.php">
+				<div class="container1">
+					<h1 class="te">會員註冊</h1>
+					<hr>
+					<label for="name" class="te"><b>姓名</b></label>
+					<input type="text" placeholder="Enter Name" name="name" required>
+					<label for="account" class="te"><b>帳號</b></label>
+					<input type="text" placeholder="Enter account" name="account" required>
+					<label for="psw" class="te"><b>密碼</b></label>
+					<input type="password" placeholder="Enter Password" name="psw" required>
+					<label for="psw-repeat"class="te"> <b>再次輸入密碼</b></label>
+					<input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+					<label for="email" class="te"><b>Email</b></label>
+					<input type="text" placeholder="Enter Email" name="email" required>
+					<label>
+						<input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+					</label>
+					
+					<div class="clearfix1">
+						<button type="submit" class="signupbtn1">註冊</button>
+					</div>
+				</div>
+			</form>
+		</div>
+		<script>
+		// Get the modal
+		var modal = document.getElementById('id02');
+		// When the user clicks anywhere outside of the modal, close it
+		window.onclick = function(event) {
+		if (event.target == modal) {
+		modal.style.display = "none";
+		}
+		}
+		</script>
 		<section>
 			<div class="body1">
 				<div class="word">
@@ -73,7 +147,7 @@
 				<h1 class="confirm">留言板</h1>
 				<div class="boardimformation">
 					<form class="board">
-						<div class="word2">	
+						<div class="word2">
 							姓 名 :&nbsp;<input type="text" style="width: 400px;" class="board"><br>
 							email:&nbsp;<input type="email" style="width: 400px;" class="board"><br>
 							想說的話:<br><textarea cols="40" rows="5" class="board"></textarea><br>
@@ -81,7 +155,7 @@
 						</div>
 					</form>
 				</div>
-			</div>			
+			</div>
 		</aside>
 		<footer>
 			<div class="footer" >
@@ -89,32 +163,33 @@
 				<div class="ig">
 					<p>
 						<div>
-							<a href="https://www.instagram.com/tseng.1018/?hl=zh-tw" target="_blank">
+							<a href="https://www.instagram.com/tseng.1018/?hl=zh-tw">
 								<img src="assets/img/3.jpg" class="com1">
 							</a>
 						</div>
 					</p>
 					<p>
 						<div>
-							<a href="https://instagram.com/z20090918z?igshid=zericnj3doc0" target="_blank">
+							<a href="https://instagram.com/z20090918z?igshid=zericnj3doc0">
 								<img src="assets/img/2.jpg" class="com2">
 							</a>
 						</div>
 					</p>
 					<p>
 						<div>
-							<a href="https://instagram.com/cheng_1024?igshid=1oorejruc3uef" target="_blank">
+							<a href="https://instagram.com/cheng_1024?igshid=1oorejruc3uef">
 								<img src="assets/img/1.jpg" class="com3">
 							</a>
 						</div>
 					</p>
 					<p>
 						<div>
-							<a href="https://instagram.com/2letters__?igshid=obcbmjubik5l" target="_blank">
+							<a href="https://instagram.com/2letters__?igshid=obcbmjubik5l">
 								<img src="assets/img/4.jpg" class="com4">
 							</a>
-						</div>	
-					</p>		
+						</div>
+					</p>
+					<p><strong>累積訪客人數:100人</strong></p>
 				</div>
 			</div>
 		</footer>
