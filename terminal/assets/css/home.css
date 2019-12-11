@@ -71,6 +71,21 @@ nav ul li a {
 nav li a:hover {
 	background-color:	#FFBB66;
 }
+button {
+  background-color:#FFDDAA;
+  color: #FF7744;
+  font:36px 微軟正黑體;
+  padding: 40px 40px;
+  font-weight:bold;
+  margin:  0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  background-color:	#FFBB66;
+}
 img.mySlides{
 	display:none;
 	width: 1550px;
@@ -206,4 +221,3 @@ img.com4{
 .com4:hover{
 	opacity: 0.5;
 }
-
