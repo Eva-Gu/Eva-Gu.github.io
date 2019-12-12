@@ -76,17 +76,19 @@ img.tick2{
 	color:#FF3333;
 	font-weight:bold;
 	font:50px 微軟正黑體;
-	margin-bottom: 0px;
+	margin-top: 30px;
+	margin-bottom: 60px;
 }
 .buy  {
     display: inline-block;
     padding: 10px 20px;
     font-size: 25px;
+    font-weight: bolder;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
     outline: none;
-    color: #FFC8B4;
+    color: white;
     background-color: #FF3333;
     border: none;
     border-radius: 10px;
@@ -105,7 +107,7 @@ img.tick2{
 	margin-left: -100px;
 }
 .csite2{
-	margin-left: 330px;
+	margin-left: 310px;
 	margin-top: -15px;
 }
 .csite3{
@@ -135,3 +137,103 @@ img.tick2{
 	margin-top: 50px;
 }
 
+.rating {
+    font-size: 0;
+    display: table;
+    margin-top:30px; 
+}
+.rating > label {
+    color: #ddd;
+    float: right;
+}
+.rating > label:before {
+   	padding: 5px;
+    font-size: 80px;
+    line-height: 1em;
+    display: inline-block;
+    content: "★";
+}
+.rating > input:checked ~ label,
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+    color: #FFD700;
+}
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label,
+.rating > input:checked ~ label:hover ~ label {
+    opacity: 0.5;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+   	outline: 0
+}
+            
+ul,li {
+    list-style: none;
+}
+            
+a {
+    text-decoration: none;
+}
+a:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+a:link {
+    text-decoration: none;
+}
+img {
+    vertical-align: middle;
+}
+.btn-numbox {
+   	overflow: hidden;
+    margin-top: 20px;
+}
+.btn-numbox li {
+    float: left;
+}
+.btn-numbox li .number,
+.kucun {
+    display: inline-block;
+    font-size: 30px;
+    color: #FF3333;
+    font-family:微軟正黑體;
+    vertical-align: sub;
+}
+.btn-numbox .count {
+    overflow: hidden;
+    margin: 0 16px 0 -20px;
+}
+.btn-numbox .count .num-jian,
+.input-num,.num-jia {
+	background-color: #FFBB66;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 30px;
+    color: #FF3333;
+    cursor: pointer;
+    border: 1px solid #FF3333;
+}
+.btn-numbox .count .input-num {
+    width: 50px;
+    height: 50px;
+    color: #333;
+    border-left: 0;
+    border-right: 0;
+}
+.site0{
+	margin-left: 50px;
+}
+.number{
+	margin-left: 150px;
+}
+.btn-numbox {
+	margin-bottom: 30px;
+}
