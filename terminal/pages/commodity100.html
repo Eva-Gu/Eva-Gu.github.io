@@ -38,12 +38,35 @@
 								<td>
 									<center class="csite">
 										<p class="cname">100元抽獎券</p>
-										 <div class="buy">
+										<ul class="btn-numbox">
+								            <li><span class="number">數量</span></li>
+								            <li class="site0">
+								                <ul class="count">
+								                    <li><span id="num-jian" class="num-jian">-</span></li>
+								                    <li><input type="text" class="input-num" id="input-num" value="0" /></li>
+								                    <li><span id="num-jia" class="num-jia">+</span></li>
+								                </ul>
+								            </li>
+								            <li><span class="kucun">（庫存:54）</span></li>
+								　　　  </ul>
+										<div class="buy">
 					                        	立即購買
 					                    </div>
 					                    <div class="buy">
 					                        	加入購物車
 					                    </div>
+										<div class="rating">
+									        <input type="radio" id="star5" name="rating" value="5" hidden/>
+									        <label for="star5"></label>
+									        <input type="radio" id="star4" name="rating" value="4" hidden/>
+									        <label for="star4"></label>
+									        <input type="radio" id="star3" name="rating" value="3" hidden/>
+									        <label for="star3"></label>
+									        <input type="radio" id="star2" name="rating" value="2" hidden/>
+									        <label for="star2"></label>
+									        <input type="radio" id="star1" name="rating" value="1" hidden/>
+									        <label for="star1"></label>
+									    </div>
 				                    </center>
 								</td>
 								<td>
@@ -52,7 +75,7 @@
 									</p>
 									<p class="csite5">中獎後抽中的物品將於填完送貨資訊單後10天內抵達指定地點</p>
 									<p class="csite3">評論：</p>
-									<textarea cols="55" rows="5" class="board csite1"></textarea><br>
+									<textarea cols="60" rows="5" class="board csite1"></textarea><br>
 									<input type="submit" value="送出" class="buy csite2" />
 								</td>
 							</tr>
@@ -60,6 +83,27 @@
 					</td>
 				</tr>
 			</table>
+			<script>
+			　 var num_jia = document.getElementById("num-jia");
+			        var num_jian = document.getElementById("num-jian");
+			        var input_num = document.getElementById("input-num");
+
+			        num_jia.onclick = function() {
+
+			            input_num.value = parseInt(input_num.value) + 1;
+			        }
+
+			        num_jian.onclick = function() {
+
+			            if(input_num.value <= 0) {
+			                input_num.value = 0;
+			            } else {
+
+			                input_num.value = parseInt(input_num.value) - 1;
+			            }
+
+			        }
+			</script>
 		</article>
 		<div id="id01" class="modal">
 			
