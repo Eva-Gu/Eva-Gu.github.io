@@ -28,7 +28,12 @@ input[type=text], input[type=password] {
   padding: 10px 18px;
   background-color:#FFAA33;
   color:#FFFFFF;
+  text-decoration:none;
 }
+a {
+    text-decoration:none;
+    color: white;
+  }
 .te{
   color:#FF7744;
 font-family:微軟正黑體;
