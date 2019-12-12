@@ -52,7 +52,7 @@ border:10px #FF7744 ridge;
   left: 0;
   right: 0;
   height: 90%;
-  width: 74%;
+  width: 80%;
   padding-left: 70px;
   opacity: 0;
   transition: .5s ease;
@@ -82,4 +82,14 @@ border:10px #FF7744 ridge;
 	width:100%;
 	height:185px;
 	background:#FF7744;
+}
+.na {
+	list-style-type: none;
+	margin-top:-8px;
+	margin-left:-10px; 
+	margin-right:-10px; 
+	padding: 0;
+	height:130px;
+	overflow: hidden;
+	background-color:#FFDDAA;
 }
