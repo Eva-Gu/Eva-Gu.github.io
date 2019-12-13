@@ -38,7 +38,18 @@
 								<td>
 									<center class="csite">
 										<p class="cname">200元抽獎券</p>
-										 <div class="buy">
+										<ul class="btn-numbox">
+								            <li><span class="number">數量</span></li>
+								            <li class="site0">
+								                <ul class="count">
+								                    <li><span id="num-jian" class="num-jian">-</span></li>
+								                    <li><input type="text" class="input-num" id="input-num" value="0" /></li>
+								                    <li><span id="num-jia" class="num-jia">+</span></li>
+								                </ul>
+								            </li>
+								            <li><span class="kucun">（庫存:679）</span></li>
+								　　　  </ul>
+										<div class="buy">
 					                        	立即購買
 					                    </div>
 					                    <div class="buy">
@@ -72,6 +83,27 @@
 					</td>
 				</tr>
 			</table>
+			<script>
+			　 var num_jia = document.getElementById("num-jia");
+			        var num_jian = document.getElementById("num-jian");
+			        var input_num = document.getElementById("input-num");
+
+			        num_jia.onclick = function() {
+
+			            input_num.value = parseInt(input_num.value) + 1;
+			        }
+
+			        num_jian.onclick = function() {
+
+			            if(input_num.value <= 0) {
+			                input_num.value = 0;
+			            } else {
+
+			                input_num.value = parseInt(input_num.value) - 1;
+			            }
+
+			        }
+			</script>
 		</article>
 		<div id="id01" class="modal">
 			
