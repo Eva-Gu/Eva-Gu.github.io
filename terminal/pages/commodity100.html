@@ -10,6 +10,9 @@
 			@import url("../assets/css/sign.css");
 			@import url("../assets/css/add.css");
 		</style>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="http://code.jquery.com/ui/1.9.2/themes/smoothness/jquery-ui.css" />
+		<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
 	</head>
 	<body>
 		<nav class="navi">
@@ -27,7 +30,12 @@
 			<table width="100%" style="table-layout:fixed">
 				<tr>
 					<td>
-						<img src="../assets/img/gift.png" alt="gift" class="gift"><br>
+						<a href="javascript: $('#gift').dialog({autoOpen: true, show:{effect:'Transfer', duration: 1000}, width: '500', height: '600', resizable: false,position: [860,235]});">
+							<img src="../assets/img/gift.png" alt="gift" class="gift"><br>
+						</a>
+						<div title="抽 獎 獎 品" id="gift">
+							這是先寫入Div的內容；可以是純文字，也可以加入圖像、影音以及互動功能等等。反正一般編頁寫作／編輯在 Div 內可以呈現出來的內容、形式，都可以使用。在此其實就是當做一般網頁寫作使用。<br> 
+						</div>
 						<center><img src="../assets/img/tick1.jpg" alt="tick" class="ti1"></center>
 						<p class="camount"> 剩 餘 數 量 500</p>
 						<a href="commodity.html"><img src="../assets/img/c1.png" title="回到上一頁" class="c1"></a>
@@ -74,7 +82,12 @@
 										獎品有耳機、撲克牌...等，若想知道更多的獎品資訊請點選禮物盒觀看
 									</p>
 									<p class="csite5">中獎後抽中的物品將於填完送貨資訊單後10天內抵達指定地點</p>
-									<p class="csite3">評論：</p>
+										<p class="csite3">評論：
+										<a href="javascript: $('#comment').dialog({autoOpen: true, show:{effect:'Transfer', duration: 1000}, width: '600', height: '300', resizable: false,position: [885,490]});" class="comment0">點我觀看評論</a>
+										<div title="消 費 者 の 評 論" id="comment">
+										目前沒有任何評論呦！！<br> 
+										</div>
+									</p>
 									<textarea cols="60" rows="5" class="board csite1"></textarea><br>
 									<input type="submit" value="送出" class="buy csite2" />
 								</td>
