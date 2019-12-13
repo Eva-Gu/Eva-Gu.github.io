@@ -76,8 +76,8 @@ img.tick2{
 	color:#FF3333;
 	font-weight:bold;
 	font:50px 微軟正黑體;
-	margin-top: 30px;
-	margin-bottom: 60px;
+	margin-top: 70px;
+	margin-bottom: 50px;
 }
 .buy  {
     display: inline-block;
@@ -94,6 +94,7 @@ img.tick2{
     border-radius: 10px;
     box-shadow: 0 5px #999;     
     opacity: 0.8; 
+    margin-bottom: -10px;
 }
 .buy:active {
     opacity: 0.5;
@@ -164,34 +165,13 @@ img.tick2{
     opacity: 0.5;
 }
 
-
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-   	outline: 0
-}
-            
+          
 ul,li {
     list-style: none;
-}
-            
-a {
-    text-decoration: none;
-}
-a:hover {
-    cursor: pointer;
-    text-decoration: none;
-}
-a:link {
-    text-decoration: none;
-}
-img {
-    vertical-align: middle;
-}
+}           
 .btn-numbox {
    	overflow: hidden;
-    margin-top: 20px;
+    margin-left: -30px;
 }
 .btn-numbox li {
     float: left;
@@ -219,7 +199,7 @@ img {
     font-size: 30px;
     color: #FF3333;
     cursor: pointer;
-    border: 1px solid #FF3333;
+    border: 1px solid #FF7744;
 }
 .btn-numbox .count .input-num {
     width: 50px;
@@ -229,11 +209,14 @@ img {
     border-right: 0;
 }
 .site0{
-	margin-left: 50px;
+	margin-left: -5px;
 }
 .number{
 	margin-left: 150px;
 }
 .btn-numbox {
-	margin-bottom: 30px;
+	margin-bottom: 10px;
+}
+.kucun {
+	margin-left:-15px;
 }
