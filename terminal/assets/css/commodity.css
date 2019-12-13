@@ -196,7 +196,7 @@ ul,li {
     height: 50px;
     line-height: 50px;
     text-align: center;
-    font-size: 30px;
+    font-size: 19px;
     color: #FF3333;
     cursor: pointer;
     border: 1px solid #FF7744;
@@ -220,3 +220,40 @@ ul,li {
 .kucun {
 	margin-left:-15px;
 }
+
+#gift{
+	padding: 0.5em; 
+	font-family: 微軟正黑體; 
+	font-size: 30px; 
+	line-height: 1.5em; 
+	letter-spacing: 0.1em;
+	display: block; 
+	text-align: justify; 
+	display: none;
+	background-color:  #FFDDAA;
+}
+#comment{
+	padding: 0.5em; 
+	font-family: 微軟正黑體; 
+	font-size: 30px; 
+	line-height: 1.5em; 
+	letter-spacing: 0.1em;
+	display: block; 
+	text-align: justify; 
+	display: none;
+	background-color:  #FFCCCC;
+}	
+.comment0{
+	padding-left: 50px;
+	color:  #FF8888;
+	font-size: 25px;
+
+}
+.comment0:hover{
+	color: #FFA488;
+}
+.comment0:active{
+	opacity: 0.5;
+}
+
+
