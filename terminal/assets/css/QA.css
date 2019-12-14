@@ -19,20 +19,22 @@ left:80%;
 	transform: scale(0.8);
 }
 #jqtextcall {
-padding: 10px;
-margin: 10px;
-background: #FF7744;
-color: #FFF;
-text-decoration: none;
-display: block;
-width: 100%;
+	border-radius: 30px;
+	padding: 10px;
+	margin: 10px;
+	background: #FF7744;
+	color: #FFF;
+	text-decoration: none;
+	display: block;
+	width: 100%;
 }
 #hiddenbox {
-margin-top: 10px;
-width: 100%;
-margin-left: 10px;
-background: #FFDDAA;
-padding: 20px;
+	border-radius: 30px;
+	margin-top: 5px;
+	width: 100%;
+	margin-left: 10px;
+	background: #FFDDAA;
+	padding: 20px;
 }
 #wrapper {
 	width: 960px;
