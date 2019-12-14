@@ -11,6 +11,21 @@
 			@import url("../assets/css/add.css");
 			@import url("../assets/css/QA.css");
 		</style>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+		<script type="text/javascript">
+			$(document).ready(function() {
+			 // hides the slickbox as soon as the DOM is ready
+			 // (a little sooner than page load)
+			  $('#hiddenbox').hide();
+
+			  // toggles the slickbox on clicking the noted link 
+			  $('a#jqtextcall').click(function() {
+			    $('#hiddenbox').slideToggle(400);
+			    return false;
+			  });
+			});
+		</script>
 	</head>
 	<body>
 		<nav class="navi">
@@ -27,6 +42,14 @@
 		<article>
 			<input style="width:15%" type="text" class="find" name="find"/>
 			<img src="../assets/img/search.png" alt="search" class="search">
+			<div id="wrapper">
+				<div id="content">
+					<a id="jqtextcall" href="#">點擊我顯示</a>   	
+					<div id="hiddenbox">
+						SR數位設計工作室「JQ點擊顯示文字效果」, 內容可自由輸入圖片或是文字效果
+					</div> 
+				</div>
+			</div>
 		</article>
 		<div id="id01" class="modal">
 			
