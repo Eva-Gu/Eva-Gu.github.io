@@ -1,9 +1,12 @@
+body{
+	font:微軟正黑體;
+}
 .find {
-border-radius: 30px;
-height:40px;
-position:relative;
-top:20px;
-left:80%;
+	border-radius: 30px;
+	height:40px;
+	position:relative;
+	top:20px;
+	left:80%;
 }
 .search {
 	height:40px;
@@ -18,26 +21,111 @@ left:80%;
 .search:active{
 	transform: scale(0.8);
 }
-#jqtextcall {
+#wrapper {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.text0{
+	font-size: 35px;
+	text-align: center;
+}
+.text1{
+	font-size: 20px;
+}
+
+#jqtextcall1 {
 	border-radius: 30px;
-	padding: 10px;
+	padding: 0px;
 	margin: 10px;
+	margin-bottom: 0px;
 	background: #FF7744;
 	color: #FFF;
 	text-decoration: none;
 	display: block;
 	width: 100%;
 }
-#hiddenbox {
+#hiddenbox1 {
 	border-radius: 30px;
-	margin-top: 5px;
 	width: 100%;
 	margin-left: 10px;
 	background: #FFDDAA;
-	padding: 20px;
+	padding-left:40px;
+	padding-right:40px;
 }
-#wrapper {
-	width: 960px;
-	margin-right: auto;
-	margin-left: auto;
+#jqtextcall2 {
+	border-radius: 30px;
+	padding: 0px;
+	margin: 10px;
+	margin-bottom: 0px;
+	background: #FF7744;
+	color: #FFF;
+	text-decoration: none;
+	display: block;
+	width: 100%;
+}
+#hiddenbox2 {
+	border-radius: 30px;
+	width: 100%;
+	margin-left: 10px;
+	background: #FFDDAA;
+	padding-left:40px;
+	padding-right:40px;
+}
+#jqtextcall3 {
+	border-radius: 30px;
+	padding: 0px;
+	margin: 10px;
+	margin-bottom: 0px;
+	background: #FF7744;
+	color: #FFF;
+	text-decoration: none;
+	display: block;
+	width: 100%;
+}
+#hiddenbox3 {
+	border-radius: 30px;
+	width: 100%;
+	margin-left: 10px;
+	background: #FFDDAA;
+	padding-left:40px;
+	padding-right:40px;
+}
+#jqtextcall4 {
+	border-radius: 30px;
+	padding: 0px;
+	margin: 10px;
+	margin-bottom: 0px;
+	background: #FF7744;
+	color: #FFF;
+	text-decoration: none;
+	display: block;
+	width: 100%;
+}
+#hiddenbox4 {
+	border-radius: 30px;
+	width: 100%;
+	margin-left: 10px;
+	background: #FFDDAA;
+	padding-left:40px;
+	padding-right:40px;
+}
+#jqtextcall5 {
+	border-radius: 30px;
+	padding: 0px;
+	margin: 10px;
+	margin-bottom: 0px;
+	background: #FF7744;
+	color: #FFF;
+	text-decoration: none;
+	display: block;
+	width: 100%;
+}
+#hiddenbox5 {
+	border-radius: 30px;
+	width: 100%;
+	margin-left: 10px;
+	background: #FFDDAA;
+	padding-left:40px;
+	padding-right:40px;
 }
