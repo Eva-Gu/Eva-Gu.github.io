@@ -156,16 +156,23 @@
 				<input type="text" placeholder="Enter Username" name="uname" required>
 				<label for="psw"  class="te"><b>密碼：</b></label>
 				<input type="password" placeholder="Enter Password" name="psw" required>
-				<button type="submit" class="add">登入</button>
-				<button type="submit" class="add"><a href="manager.html">管理員登入</a></button>
 				<label>
 					<input type="checkbox" checked="checked" name="remember"> Remember me
 				</label>
+				<p></p>
+				<center>			
+					<button type="submit" class="add">
+						會員登入
+					</button>
+					<button type="submit" class="add">
+						<a href="manager.html">管理員登入</a>
+					</button>
+				</center>
 			</div>
 			<div class="container">
 				<button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">取消</button>
 				<button onclick="document.getElementById('id02').style.display='block'" style="width:auto;"class="cancelbtn" >註冊</button>
-				<span class="psw">Forgot <a href="#">password?</a></span>
+				<span class="psw">Forgot <a href="#" class="color">password?</a></span>
 			</div>
 		</form>
 	</div>
