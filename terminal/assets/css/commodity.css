@@ -281,17 +281,18 @@ ul,li {
 	width: 60%;
 	margin-left: 210px;
 	margin-top:-60px;
+	margin-bottom: 20px;
 	background: #FFDDAA;
 	padding-left:40px;
 	padding-right:40px;
 }
-.close{
-	margin-top: 280px;
-	margin-right: 1120px;
+.clo{
+	margin-top: -20px;
+	margin-left:480px;
 	width: 30px;
 	opacity: 0.8;
 }
-.close:active{
+.clo:active{
 	transform: scale(0.8);
 	opacity: 0.5;
 }
