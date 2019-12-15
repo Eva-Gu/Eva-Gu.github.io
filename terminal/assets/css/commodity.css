@@ -296,4 +296,74 @@ ul,li {
 	transform: scale(0.8);
 	opacity: 0.5;
 }
+.gp1{
+	color:#FF7744;
+	background-color:#FFBB66;
+	font-style: border;
+	width: 100px;
+	text-align: center;
+	font-family:"微軟正黑體";
+	margin-top: -60px;
+	font-size: 30px;
+	border: 3px solid #FFAA33;
+	border-radius: 30px;
+}
+.gp2{
+	color:#FF7744;
+	background-color:#FFBB66;
+	font-style: border;
+	width: 100px;
+	text-align: center;
+	font-family:"微軟正黑體";
+	font-size: 30px;
+	border: 3px solid #FFAA33;
+	border-radius: 30px;
+}
+
+.gi{
+	width:100px;
+	height: 100px;
+	margin-left: 15px;
+	cursor: pointer;
+}
+.gi:hover{
+	transform: scale(1.8);
+}
+
+
+
+
+#ly{
+	position: absolute; 
+	top: 885px;
+	left: 490px; 
+	filter: alpha(opacity=60); 
+	background-color: #777;
+	z-index: 2; 
+	left: 0px; 
+	display: none;
+}
+.clo1{
+	margin-top: -180px;
+	margin-left:480px;
+	width: 30px;
+	opacity: 0.8;
+}
+.clo1:active{
+	transform: scale(0.8);
+	opacity: 0.5;
+}
+a:link {
+color: #FFFFFF;
+text-decoration: none;
+}
+a:visited {
+text-decoration: none;
+}
+a:hover {
+text-decoration: none;
+}
+a:active {
+text-decoration: none;
+}
 
