@@ -96,6 +96,7 @@ img.tick2{
     box-shadow: 0 5px #999;     
     opacity: 0.8; 
     margin-bottom: -10px;
+    font-family: "微軟正黑體";
 }
 .buy:active {
     opacity: 0.5;
