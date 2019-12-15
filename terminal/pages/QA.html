@@ -140,8 +140,8 @@
 					</a>   	
 					<div id="hiddenbox4">
 						<p class="text1">
-							♡ATM轉帳／銀行匯款：確認訂單內容並完成訂購程序後，可選擇以ATM轉帳或銀行匯款之方式，將交易金額匯至指定銀行帳號。
-							請注意：使用「ATM轉帳／銀行匯款」之訂單，請在下單5日之內完成匯款程序，若逾期未付款，該筆訂單將被取消。
+							♡ATM轉帳／銀行匯款：確認訂單內容並完成訂購程序後，可選擇以ATM轉帳或銀行匯款之方式，將交易金額匯至指定銀行帳號。<br>
+							請注意：使用「ATM轉帳／銀行匯款」之訂單，請在下單5日之內完成匯款程序，若逾期未付款，該筆訂單將被取消。<br>
 							♡刷卡服務：僅限台灣地區發行之信用卡
 						</p>	
 					</div> 
@@ -171,18 +171,24 @@
 					<label for="uname" class="te"><b>帳號：</b></label>
 					<input type="text" placeholder="Enter Username" name="uname" required>
 					<label for="psw"  class="te"><b>密碼：</b></label>
-					<input type="password" placeholder="Enter Password" name="psw" required>					
-					<button type="submit" class="add">登入</button>
-					<button type="submit" class="add"><a href="manager.html">管理員登入</a></button>
+					<input type="password" placeholder="Enter Password" name="psw" required>	
 					<label>
 						<input type="checkbox" checked="checked" name="remember"> Remember me
 					</label>
-
+					<p></p>
+					<center>			
+						<button type="submit" class="add">
+							會員登入
+						</button>
+						<button type="submit" class="add">
+							<a href="manager.html">管理員登入</a>
+						</button>
+					</center>
 				</div>
 				<div class="container">
 					<button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">取消</button>
 					<button onclick="document.getElementById('id02').style.display='block'" style="width:auto;"class="cancelbtn" >註冊</button>
-					<span class="psw">Forgot <a href="#">password?</a></span>
+					<span class="psw">Forgot <a href="#" class="color">password?</a></span>
 				</div>
 			</form>
 		</div>
