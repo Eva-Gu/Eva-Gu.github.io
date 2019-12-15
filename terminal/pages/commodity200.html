@@ -10,9 +10,20 @@
 			@import url("../assets/css/sign.css");
 			@import url("../assets/css/add.css");
 		</style>
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-		<link rel="stylesheet" href="http://code.jquery.com/ui/1.9.2/themes/smoothness/jquery-ui.css" />
-		<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+			 // hides the slickbox as soon as the DOM is ready
+			 // (a little sooner than page load)
+			  $('#hiddenbox0').hide();
+
+			  // toggles the slickbox on clicking the noted link 
+			  $('a#jqtextcall0').click(function() {
+			    $('#hiddenbox0').slideToggle(400);
+			    return false;
+			  });
+			});
+		</script>
 	</head>
 	<body>
 		<nav class="navi">
@@ -30,11 +41,18 @@
 			<table width="100%" style="table-layout:fixed">
 				<tr>
 					<td>
-						<a href="javascript: $('#gift').dialog({autoOpen: true, show:{effect:'Transfer', duration: 1000}, width: '500', height: '600', resizable: false,position: [860,235]});">
-							<img src="../assets/img/gift.png" alt="gift" class="gift"><br>
-						</a>
-						<div title="抽 獎 獎 品" id="gift">
-							商品照片<br> 
+						<div id="content">
+							<a id="jqtextcall0" href="#" title="點我觀看獎品">
+								<img src="../assets/img/gift.png" alt="gift" class="gift"><br>
+							</a>   	
+							<div id="hiddenbox0">
+								<p class="text1">
+									<a id="jqtextcall0" href="#" title="關閉">
+										<img src="../assets/img/close.png" alt="colse" class="close">
+										<br>
+									</a> 
+								</p>	
+							</div> 
 						</div>
 						<center><img src="../assets/img/tick2.jpg" alt="tick" class="ti1"></center>
 						<p class="camount"> 剩 餘 數 量 679</p>
