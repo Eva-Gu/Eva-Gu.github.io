@@ -29,9 +29,11 @@ body{
 .text0{
 	font-size: 35px;
 	text-align: center;
+	font-family: "微軟正黑體";
 }
 .text1{
 	font-size: 25px;
+	font-family: "微軟正黑體";
 }
 
 #jqtextcall1 {
