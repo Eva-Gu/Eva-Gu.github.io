@@ -31,6 +31,7 @@ img.tick2{
 	color:#FFDDAA;
 	margin:0px;
 	padding:0px;
+	font-family: "微軟正黑體";
 }
 
 
@@ -255,5 +256,42 @@ ul,li {
 .comment0:active{
 	opacity: 0.5;
 }
+#wrapper {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.text0{
+	font-size: 35px;
+	text-align: center;
+}
+.text1{
+	font-size: 25px;
+}
 
+#jqtextcall0 {
+	
+	text-decoration: none;
+	display: block;
+	
+}
+#hiddenbox0 {
+	border-radius: 30px;
+	width: 60%;
+	margin-left: 210px;
+	margin-top:-60px;
+	background: #FFDDAA;
+	padding-left:40px;
+	padding-right:40px;
+}
+.close{
+	margin-top: 280px;
+	margin-right: 1120px;
+	width: 30px;
+	opacity: 0.8;
+}
+.close:active{
+	transform: scale(0.8);
+	opacity: 0.5;
+}
 
