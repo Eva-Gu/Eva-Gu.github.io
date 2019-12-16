@@ -5,10 +5,11 @@
 		<title>make a dream</title>
 		<style>
 					@import url("../assets/css/home.css");
-			@import url("../assets/css/sign.css");
+					@import url("../assets/css/sign.css");
 					@import url("../assets/css/add.css");
 					@import url("../assets/css/manager.css");
 					@import url("../assets/css/car.css");
+					<script src="https://unpkg.com/vue/dist/vue.min.js"></script>
 		</style>
 		<script src="https://unpkg.com/vue/dist/vue.min.js"></script>
 	</head>
@@ -58,18 +59,19 @@
 							<div class="amount">總計</div>
 							<div class="operate">操作</div>
 						</div>
+						<div class="item_container" v-for="(item, index) in itemList" :key="item.id" >
 						<div class="item_header item_body">
 							<div class="item_detail">
 								<img src="../assets/img/tick1.jpg">
-								<div class="name">100元抽獎券</div>
+								<div class="name">{{item.itemName}}</div>
 							</div>
-							<div class="price"><span>$</span>100</div>
+							<div class="price"><span>$</span>{{item.price}}</div>
 							<div class="count">
-								<button class="n">-</button>
+								<button @click="handleSub(item)" class="n">-</button>
 								1
-								<button class="n">+</button>
+								<button @click="handlePlus(item)" class="n">+</button>
 							</div>
-							<div class="amount">100</div>
+							<div class="amount">{{item.price * item.count}}</div>
 							<div class="operate">
 								<button class="but1">刪除</button>
 							</div>
@@ -178,6 +180,6 @@
 				</div>
 			</form>
 		</div>
-		
+		<script src="../assets/js/car.js"></script>
 	</body>
 </html>
