@@ -292,13 +292,13 @@ ul,li {
 	position:absolute;
 	z-index: 1;
 }
-#jqtextcall1 {
+#jqtextcallc1 {
 	
 	text-decoration: none;
 	display: block;
 	
 }
-#hiddenbox1 {
+#hiddenboxc1 {
 	border-radius: 30px;
 	width: 30%;
 	margin-left: -135px;
