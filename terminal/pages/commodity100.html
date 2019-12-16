@@ -11,47 +11,7 @@
 			@import url("../assets/css/add.css");
 		</style>	
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-		<script type="text/javascript">
-			$(document).ready(function() {
-			 // hides the slickbox as soon as the DOM is ready
-			 // (a little sooner than page load)
-			  $('#hiddenbox0').hide();
-
-			  // toggles the slickbox on clicking the noted link 
-			  $('a#jqtextcall0').click(function() {
-			    $('#hiddenbox0').slideToggle(400);
-			    return false;
-			  });
-			});
-		</script>
-
-
-
-
-
-
-
-
-		<script>  
-		  function locking(){  
-		   document.all.ly.style.display="block";  
-		   document.all.ly.style.width=document.body.clientWidth;  
-		   document.all.ly.style.height=document.body.clientHeight;  
-		   document.all.Layer2.style.display='block'; 
-		   }  
-		  function Lock_CheckForm(theForm){  
-		   document.all.ly.style.display='none';document.all.Layer2.style.display='none';
-		  return false;  
-		   }  
-    	</script>
-
-
-
-
-
-
-
-
+		<script src="../assets/js/commodity.js"></script>
 	</head>
 	<body>
 		<nav class="navi">
@@ -137,39 +97,27 @@
 									<p class="csite5">中獎後抽中的物品將於填完送貨資訊單後10天內抵達指定地點
 									</p>
 									<p class="csite3">評論：
-										<p>
-											<div onClick="locking()" class="comment0">
-											    點我觀看評論
-											</div>
-										</p>
-										<div id="ly"></div>
-										<!--          浮層框架開始         -->
-										<div id="Layer2" align="center" style="position: absolute; z-index: 3; left: expression((document.body.offsetWidth-540)/2); top: expression((document.body.offsetHeight-170)/10);background-color: #fff; display: none;" >
-											<table width="300" height="300" border="0" cellpadding="0" cellspacing="0" style="border: 0    solid    #e7e3e7;
-											             border-collapse: collapse ;" >
-											        <tr>
-											           <td style="background-color: #73A2d6; color: #fff; padding-left: 4px; padding-top: 2px;
-											                     font-weight: bold; font-size: 12px;" height="10" valign="middle">
-											            <div >
-											                <p align="left">
-											                	消 費 者 の 評 論
-											                </p>	
-											                <a href=JavaScript:; align="right" onclick="Lock_CheckForm(this);">
-											                	<img src="../assets/img/close.png" alt="colse" class="clo1">
-											                </a>
-											            </div>
-											        </td>
-											    </tr>
-											    <tr>
-											        <td height="130" align="center">
-											            目前沒有任何評論呦！！<br>
-											        </td>
-											   	</tr>
-											</table>
+										<div id="content">
+											<a id="jqtextcall1" href="#" title="點我觀看評論">
+												<p>
+													<div onClick="locking()" class="comment0">
+													    點我觀看評論
+													</div>
+												</p>
+											</a>   	
+											<div id="hiddenbox1">
+												<p class="text1">
+													<a id="jqtextcall1" href="#" title="關閉">
+														<img src="../assets/img/close.png" alt="colse" class="clo">
+														<br>
+													</a> 
+													<p class="tit">消 費 者 の 評 論
+													<p class="con">目前沒有任何評論呦！！</p>
+												</p>	
+											</div> 
 										</div>
-										<!--  浮層框架結束-->	
 									</p>
-									<textarea cols="60" rows="5" class="board csite1"></textarea><br>
+									<textarea cols="38" rows="5" class="board csite1"></textarea><br>
 									<input type="submit" value="送出" class="buy csite2" />
 								</td>
 							</tr>
