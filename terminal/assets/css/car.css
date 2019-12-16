@@ -1,7 +1,6 @@
-
 div.solid2 {
-  border:3px #00DD77 solid;
-  background-color:#EEFFBB;
+  border:3px #FF7744 solid;
+  background-color:#FFDDAA;
   font-size:30px;
   font-family:微軟正黑體;
   padding:20px;
@@ -56,7 +55,7 @@ div.solid2 {
     margin-top: 20px;
 } 
 .n{
-  background-color: #4CAF50;
+  background-color: #FF7744;
   color: white;
   width:30px;
   height:30px;
@@ -68,7 +67,7 @@ div.solid2 {
   padding:1px;
 }
 .but1 {
-  background-color: #4CAF50;
+  background-color: #FF7744;
   color: white;
   width:150px;
   height:50px;
