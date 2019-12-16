@@ -192,8 +192,8 @@ p.solid {
 p.solid1 {
   border:3px #FF7744 solid;
   background-color:white;
-  width:10%;
-  height:150px;
+  width:50%;
+  height:400px;
 }
 .but {
   background-color: #FF7744;
