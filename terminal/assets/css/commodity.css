@@ -54,12 +54,15 @@ img.tick2{
 	transform: scale(1.05);
 	cursor: pointer;
 }
-.camount {
+.like {
 	text-align: center;
-	color:#FF3333;
+	color:red;
 	font-weight:bold;
-	font:35px 微軟正黑體;
-	margin-bottom: 0px;
+	font:80px 微軟正黑體;
+	margin-bottom:-12px;
+	margin-top:-12px;
+	margin-left:700px;
+	cursor: pointer;
 }
 .c1 {
 	width:70px;
