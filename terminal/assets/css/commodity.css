@@ -98,7 +98,7 @@ img.tick2{
     border-radius: 10px;
     box-shadow: 0 5px #999;     
     opacity: 0.8; 
-    margin-bottom: -10px;
+    margin-bottom: -10px;/*改*/
     font-family: "微軟正黑體";
 }
 .buy:active {
@@ -310,6 +310,26 @@ ul,li {
 	position:absolute;
 	z-index: 1;
 }
+/*改begin*/
+#jqtextcallc2 {
+	
+	text-decoration: none;
+	display: block;
+	
+}
+#hiddenboxc2 {
+	border-radius: 30px;
+	width: 30%;
+	margin-left: -150px;
+	margin-top:-450px;
+	margin-bottom: 20px;
+	background: #FFC8B4;
+	padding-left:40px;
+	padding-right:-20px; /*改*/
+	position:absolute;
+	z-index: 1;
+}
+/*改end*/
 .clo{
 	margin-top: -20px;
 	margin-left:480px;
@@ -371,3 +391,28 @@ ul,li {
 	font-style: border;
 	margin-top: -20px;
 }
+/*改begin*/
+.solidc {
+  border:3px #FF7744 solid;
+  background-color:#FFDDAA;
+  font-size:25px;
+  font-family:微軟正黑體;
+  padding:20px;
+  width:90%;
+}
+.optc{
+  width:200px;
+  font-size:25px;
+}
+.butc {
+  background-color: #FF7744;
+  color: white;
+  width:100px;
+  height:60px;
+  margin-left: 70%;
+  text-align: center;
+  display: inline-block;
+  font-size: 25px;
+  padding:10px;
+}
+/*改end*/
