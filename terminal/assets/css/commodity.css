@@ -306,7 +306,7 @@ ul,li {
 	margin-bottom: 20px;
 	background: #FFC8B4;
 	padding-left:40px;
-	padding-right:40px;
+	padding-right:20px; /*改*/
 	position:absolute;
 	z-index: 1;
 }
