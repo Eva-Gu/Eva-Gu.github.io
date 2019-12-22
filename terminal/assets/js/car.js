@@ -4,7 +4,7 @@ var app = new Vue({
         itemList:[
           {
             id:'1',
-            itemName:'100購物卷',
+            itemName:'抽獎券',
             imgUrl:'../img/tick1.jpg',
             price:'100',
             count:'1'
