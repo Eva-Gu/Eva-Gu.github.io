@@ -68,7 +68,7 @@
 							<div class="price"><span>$</span>{{item.price}}</div>
 							<div class="count">
 								<button @click="handleSub(item)" class="n">-</button>
-								1
+								<div class="count">{{item.count}}</div>
 								<button @click="handlePlus(item)" class="n">+</button>
 							</div>
 							<div class="amount">{{item.price * item.count}}</div>
