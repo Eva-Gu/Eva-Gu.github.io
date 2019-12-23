@@ -195,6 +195,14 @@ p.solid1 {
   width:50%;
   height:400px;
 }
+/*改begin*/
+p.solid2 {
+  border:3px #FF7744 solid;
+  background-color:white;
+  width:200px;
+  height:200px;
+}
+/*改end*/
 .but {
   background-color: #FF7744;
   color: white;
