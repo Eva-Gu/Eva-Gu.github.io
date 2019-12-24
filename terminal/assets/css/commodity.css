@@ -54,6 +54,8 @@ img.tick2{
 	transform: scale(1.05);
 	cursor: pointer;
 }
+/*change begin（刪掉）*/
+/*
 .like {
 	text-align: center;
 	color:red;
@@ -64,11 +66,13 @@ img.tick2{
 	margin-left:700px;
 	cursor: pointer;
 }
+*/
+/*change end*/
 .c1 {
 	width:70px;
-	margin-left:100px;
-	margin-top: -40px;
-	margin-bottom: -30px;
+	margin-left:90px;/*change*/
+	margin-top: 40px;/*change*/
+	margin-bottom: -50px;/*change*/
 	opacity: 1;
 }
 .c1:active{
