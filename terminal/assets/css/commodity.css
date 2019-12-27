@@ -822,3 +822,25 @@ ul,li {
   padding:10px;
 }
 /*改end*/
+/*1228改begin*/
+.find {
+	border-radius: 30px;
+	height:40px;
+	position:relative;
+	top:20px;
+	left:80%;
+}
+.search {
+	height:40px;
+	position:relative;
+	top:20px;
+	left:80.3%;
+	cursor: pointer;
+}
+.search:hover{
+	opacity: 0.5;
+}
+.search:active{
+	transform: scale(0.8);
+}
+/*1228改end*/
