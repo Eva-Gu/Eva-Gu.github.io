@@ -1,0 +1,148 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+	
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    
+	<title>食材‧譜-match then cook</title>
+    
+	<style>
+      @import url("css/index.css");
+	  @import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);<!-- 圓體字體 -->
+    </style>	
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  </head>
+  <body>
+    <header>
+        <img src="image/logo.png" class="logo">
+		<img src="image/name.gif" class="name">
+        <div class="title1">
+			<a href="index.html" class="title">首頁-專題簡介</a>
+			<a href="page/member.html" class="title">團隊成員</a>
+			<a href="page/system01.html" class="title">系統展示</a>			
+        </div>
+    </header>
+	
+	<center>
+	<!-- HTML -->
+	<span id="tab-1">簡介</span>
+	<span id="tab-2">緣起</span>
+	<span id="tab-3">特色</span>
+	<span id="tab-4">貢獻</span>
+
+	<!-- 頁籤按鈕 -->
+	<div id="tab">
+		<ul>
+			<li><a href="#tab-1">簡介</a></li>
+			<li><a href="#tab-2">緣起</a></li>
+			<li><a href="#tab-3">特色</a></li>
+			<li><a href="#tab-4">貢獻</a></li>
+		</ul>
+		
+		<!-- 頁籤的內容區塊 -->
+		<div class="tab-content-1">
+			<p><center><img src="image/brief.gif" class="brief"></center></p>
+		</div>
+		<div class="tab-content-2">
+			<p>
+			<table width="100%" style="table-layout:fixed">
+			<tr>
+				<td>
+				近年來健康意識抬頭，越來越多人喜歡自己料理健康餐點，再者過去幾年食安問題層出不窮，例如: 2011年塑化劑事件、2014年黑心油事件等，造成人心惶惶，以及在2020年初發生的新冠肺炎疫情，讓人們擔心在外飲食或是購買外食不能確保食品的安全，甚至成為防疫的破口，所以外食不再是優先選擇，因而社會帶起了「自煮」風潮。不過因為現代人生活步調快速，整日繁忙，採買食材以及尋找食譜所耗費的時間讓許多人因此卻步，除此之外，人們時常忽視食材的管理，將家裡的食材放到過期或是遺忘，結果還沒用完又去購買相同食材，導致許多浪費，得不償失。
+				<br><br>
+				有鑑於上述背景，若是有一個工具可以方便快速的幫忙規劃和管理食材，既能減少食材的浪費又能讓忙碌的人們可以輕鬆做料理，讓食材的準備與處理不再是自己煮飯的阻礙，這就是我們團隊想解決的問題。
+				<br><br>
+				顛覆大多數APP以「食譜」為出發點的作法，我們希望以「食材」出發，製作一個以食材管理為主軸的APP，經由推薦系統的運算，綜合使用者登錄的食材資料、當下狀況還有使用者偏好等等數據，透過數據分析為每位使用者客製化推薦食譜，減少食物腐爛所造成的浪費。
+				</td>
+				<td>
+				<center><img src="image/origin.gif" class="origin"></center>
+				</td>
+			</tr>
+			</table>
+			</p>		  
+		</div>
+		<div class="tab-content-3">
+			<p>
+			<table width="100%" style="table-layout:fixed">
+				<tr>
+					<td><center><img src="image/f1.png" id="demo1" class="feature"></center></td>
+					<td><center><img src="image/f2.png" id="demo2" class="feature"></center></td>
+					<td><center><img src="image/f3.png" id="demo3" class="feature"></center></td>
+				</tr>
+				<tr>
+					<td><center><h3>預測使用者選擇</h3></center></td>
+					<td><center><h3>拍照辨識食材</h3></center></td>
+					<td><center><h3>缺少食材提示</h3></center></td>
+				</tr>
+				<tr><td><br></td></tr>
+				<tr>
+					<td><center><img src="image/f4.png" id="demo4" class="feature"></center></td>
+					<td><center><img src="image/f5.png" id="demo5" class="feature"></center></td>
+					<td><center><img src="image/f6.png" id="demo6" class="feature"></center></td>
+				</tr>
+				<tr>
+					<td><center><h3>食譜留言板</h3></center></td>
+					<td><center><h3>評論獲取金幣可兌換優惠券</h3></center></td>
+					<td><center><h3>首頁小知識</h3></center></td>
+				</tr>
+			</table>
+			</p>
+		</div>
+		<div class="tab-content-4">
+		<table width="70%" style="table-layout:fixed">
+		  <tr><td><center>
+		  <br><p class="contitle">學術界</p>
+		  </center></td></tr>
+		  <tr><td>
+		  <p style="text-align:left">
+			用Microsoft Azure機器學習訓練完成的模型，能在家中的食材和使用者的喜好之間找到良好的平衡，經由機器學習的結果，讓使用者可以在家中食材的基礎上，一鍵找到自己喜愛的食譜，省下寶貴的時間，期望讓本系統可以比使用者更了解自己。
+			<br>未來我們期望能與醫療產業方面合作，特定患者(例如：三高、糖尿病)的飲食能配合營養師專業，為使用者量身訂做個人化健康食譜，讓患者從每日最重要的三餐出發，吃得健康又安心，藉此得到更完善照顧。
+		  </p>
+		  </td></tr>
+		  <tr><td><br></td></tr>
+		  <tr><td><center>
+		  <p class="contitle">實務界</p>
+		  </center></td></tr>
+		  <tr><td>
+		  <p style="text-align:left">
+			本專題讓人們能更方便的製作料理，控管食材，使原本習慣外食的使用者們，開始喜歡自行烹調，期許我們的APP能夠在社會上帶起「自煮」的風潮，將簡單就能料理的概念帶到生活中，即使是工作繁忙的上班族，使用我們的產品就能夠在通勤的時間也能提前規劃菜單，回家就能夠開始料理；或是想要自己下廚，不用來來回回走了好幾次廚房，透過APP就能知道要煮什麼或是家裡還有哪些食材，更不會因為遺忘而造成食材的浪費。
+			<br>將機器學習成果應用到我們的APP中，不僅在節省時間的情況下，煮的健康，吃得安心，還能讓所有的食材做到最完美的利用，減少食材的浪費，為地球盡一份心力。
+		  </p>
+		  </td></tr>
+		</table>
+		</div>
+	</div>
+	</center>
+		
+	<footer>
+         <center><b>Copyright © 2021 蘇家瑩、陳映彤、古珮樺、洪子貽 版權所有</b></center>
+    </footer>
+	
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  </body>
+  <script>
+	document.getElementById("demo1").addEventListener("click",function(){
+	  swal("預測使用者選擇", "我們使用Microsoft Azure機器學習訓練模型。運用使用者選擇當下的17項資料作為特徵進行訓練，讓訓練過後的Model進行預測，準確推薦符合使用者需求的食譜。","image/f1.png");
+	});
+	document.getElementById("demo2").addEventListener("click",function(){
+	  swal("拍照辨識食材", "Android串接Google Cloud Vision API，利用手機拍照，即可達到食材辨識的效果，方便使用者新增食材。","image/f2.png");
+	});
+	document.getElementById("demo3").addEventListener("click",function(){
+	  swal("缺少食材提示", "比對食材庫與該食譜所需食材，在食譜頁面添加標示，使用者能輕鬆看到食譜中擁有與缺失的食材有哪些。","image/f3.png");
+	});
+	document.getElementById("demo4").addEventListener("click",function(){
+	  swal("食譜留言板", "可參考過去曾使用過此食譜的使用者意見，也可留言表達自己的喜好。","image/f4.png");
+	});
+	document.getElementById("demo5").addEventListener("click",function(){
+	  swal("評論獲取金幣可兌換優惠券", "製作完成後可評論並表達喜好，留言過後將會得到5枚虛擬幣，虛擬幣可於虛擬商城購買優惠券使用。","image/f5.png");
+	});
+	document.getElementById("demo6").addEventListener("click",function(){
+	  swal("首頁小知識", "不定期於首頁的幻燈片更新料理相關的小小冷知識，或者是當季推薦食材，在沒有負擔的情況下使用我們的APP還能順便增廣見聞。","image/f6.png");
+	});
+  </script>		  
+</html>
